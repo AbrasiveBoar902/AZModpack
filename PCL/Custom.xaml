@@ -1,0 +1,87 @@
+﻿<local:MyCard Title="版本信息" Margin="0,0,0,10">
+    <StackPanel Margin="25,35,23,5">
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                   Text="AZ's Modpack Beta 2.0.8" />
+        </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="控制台" Margin="0,0,0,10">
+    <StackPanel Margin="25,40,23,15">
+
+        <local:MyHint Margin="0,0,0,4" IsWarn="True"
+                   Text="必须使用JDK 16！下方有链接！" />
+        <local:MyHint Margin="0,0,0,4" IsWarn="False"
+                   Text="Canvas光影开启后再关闭，图像品质会被自动改为 极佳" />
+        <local:MyHint Margin="0,0,0,4" IsWarn="False"
+                   Text="小地图使用的是Xaero地图，因为voxel有bug，可以自行更换" />
+      
+         <local:MyButton Margin="0,0,10,0" Width="280" Height="35" HorizontalAlignment="Center" Padding="13,0,13,0"  ColorType="Highlight"
+                   Text="启动1.17.1-Fabric 0.11.6" EventType="启动游戏" EventData="1.17.1-Fabric 0.11.6"/>
+      
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,5,0,0">
+            <local:MyButton Margin="0,0,10,0" Width="120" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"  ColorType="Red"
+                   Text="Iris光影" EventType="打开文件" EventData="{path}\.minecraft\versions\1.17.1-Fabric 0.11.6\mods\Iris-on.bat" ToolTip="注意，Iris测试版不是非常稳定" />
+            <local:MyButton Margin="0,0,10,0" Width="120" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
+                   Text="Sodium模式" EventType="打开文件" EventData="{path}\.minecraft\versions\1.17.1-Fabric 0.11.6\mods\Sodium-on.bat" ToolTip="稳定性更高，有连接纹理" />
+        </StackPanel>
+
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,5,0,10">
+            <local:MyButton Margin="0,0,10,0" Width="120" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Red"
+                   Text="Optifine光影" EventType="打开文件" EventData="{path}\.minecraft\versions\1.17.1-Fabric 0.11.6\mods\Optifine-on.bat" />
+            <local:MyButton Margin="0,0,10,0" Width="120" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Red"
+                   Text="Canvas光影" EventType="打开文件" EventData="{path}\.minecraft\versions\1.17.1-Fabric 0.11.6\mods\Canvas-on.bat" />
+        </StackPanel>
+
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,5,0,0">
+            <local:MyButton Margin="0,0,10,0" Width="150" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
+                   Text="开启Lite模式" EventType="打开文件" EventData="{path}\.minecraft\versions\1.17.1-Fabric 0.11.6\mods\Lite-on.bat" ToolTip="只留必须的mod" />
+            <local:MyButton Margin="0,0,10,0" Width="150" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
+                   Text="关闭Lite模式" EventType="打开文件" EventData="{path}\.minecraft\versions\1.17.1-Fabric 0.11.6\mods\Lite-off.bat" ToolTip="一般模式" />
+        </StackPanel>
+
+
+        </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="下载JDK" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,15">
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,10,0,0">
+                <local:MyButton Margin="0,0,0,0" Width="180" Height="35" HorizontalAlignment="Center" Padding="13,0,13,0"
+                       Text="下载JDK 16" EventType="打开网页" EventData="https://wwi.lanzoui.com/iArBRrpqajc" />
+        </StackPanel>
+   </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="更新日志" Margin="0,0,0,15">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                   Text="之前的没记" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Foreground="#8C7721"
+                   Text="2021/7/14 更新一些mod，添加连接纹理，调整一些按键和默认值设置，添加卡片" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Foreground="#8C7721"
+                   Text="2021/7/20 V2.0-RC1 增加很多mod，修改一些按键，修改options切换方式" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Foreground="#8C7721"
+                   Text="2021/7/22 V2.0-RC3 各种修改，sodium退回b.503" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Foreground="#8C7721"
+                   Text="2021/7/22 V2.0-RC4 对iris和sodium更改不同的兼容mod，各种更改" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Foreground="#8C7721"
+                   Text="2021/7/22 V2.0-RC6 增加一些mod，各种更改" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Foreground="#8C7721"
+                   Text="2021/7/22 Beta 2.0.7 增加一些mod，各种更改" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Foreground="#8C7721"
+                   Text="2021/7/22 Beta 2.0.8 增加optifine模式" />
+    </StackPanel>
+</local:MyCard>
+
+
+<local:MyCard Title="关于" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap" Margin="0,6,0,0"
+	Text="作者:AbrasiveBoar902/zijinshanren" />
+
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,10,0,0">
+                <local:MyButton Margin="0,0,10,0" Width="180" Height="35" HorizontalAlignment="Center" Padding="13,0,13,0"
+                       Text="作者" EventType="打开网页" EventData="https://space.bilibili.com/1938528984" />
+        </StackPanel>
+   </StackPanel>
+</local:MyCard>

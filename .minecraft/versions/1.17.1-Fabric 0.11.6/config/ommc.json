@@ -1,0 +1,230 @@
+{
+  "Generic": {
+    "openConfigGui": {
+      "keys": "O,C",
+      "settings": {
+        "activate_on": "PRESS",
+        "context": "INGAME",
+        "allow_empty": false,
+        "allow_extra_keys": false,
+        "order_sensitive": true,
+        "exclusive": false,
+        "cancel": true
+      }
+    },
+    "debug": false,
+    "dontClearChatHistory": true,
+    "clearWaypoint": {
+      "keys": "C",
+      "settings": {
+        "activate_on": "PRESS",
+        "context": "INGAME",
+        "allow_empty": false,
+        "allow_extra_keys": false,
+        "order_sensitive": true,
+        "exclusive": false,
+        "cancel": true
+      }
+    },
+    "forceParseWaypointFromChat": false,
+    "sortInventory": {
+      "keys": "",
+      "settings": {
+        "activate_on": "PRESS",
+        "context": "INGAME",
+        "allow_empty": false,
+        "allow_extra_keys": false,
+        "order_sensitive": true,
+        "exclusive": false,
+        "cancel": true
+      }
+    },
+    "sortInventorySupportEmptyShulkerBoxStack": true
+  },
+  "FeatureToggle": {
+    "disableBreakBlock": false,
+    "disableBreakScaffolding": false,
+    "disableMoveDownInScaffolding": false,
+    "flatDigger": false,
+    "forceBreakingCooldown": false,
+    "highlightLavaSource": true,
+    "highlightWanderingTrader": true,
+    "highlightPersistentMob": false,
+    "preventIntentionalGameDesign": false,
+    "realSneaking": false,
+    "removeBreakingCooldown": false,
+    "worldEaterMineHelper": false
+  },
+  "FeatureHotkey": {
+    "disableBreakBlock": {
+      "keys": "",
+      "settings": {
+        "activate_on": "PRESS",
+        "context": "INGAME",
+        "allow_empty": false,
+        "allow_extra_keys": false,
+        "order_sensitive": true,
+        "exclusive": false,
+        "cancel": true
+      }
+    },
+    "disableBreakScaffolding": {
+      "keys": "",
+      "settings": {
+        "activate_on": "PRESS",
+        "context": "INGAME",
+        "allow_empty": false,
+        "allow_extra_keys": false,
+        "order_sensitive": true,
+        "exclusive": false,
+        "cancel": true
+      }
+    },
+    "disableMoveDownInScaffolding": {
+      "keys": "",
+      "settings": {
+        "activate_on": "PRESS",
+        "context": "INGAME",
+        "allow_empty": false,
+        "allow_extra_keys": false,
+        "order_sensitive": true,
+        "exclusive": false,
+        "cancel": true
+      }
+    },
+    "flatDigger": {
+      "keys": "",
+      "settings": {
+        "activate_on": "PRESS",
+        "context": "INGAME",
+        "allow_empty": false,
+        "allow_extra_keys": false,
+        "order_sensitive": true,
+        "exclusive": false,
+        "cancel": true
+      }
+    },
+    "forceBreakingCooldown": {
+      "keys": "",
+      "settings": {
+        "activate_on": "PRESS",
+        "context": "INGAME",
+        "allow_empty": false,
+        "allow_extra_keys": false,
+        "order_sensitive": true,
+        "exclusive": false,
+        "cancel": true
+      }
+    },
+    "highlightLavaSource": {
+      "keys": "",
+      "settings": {
+        "activate_on": "PRESS",
+        "context": "INGAME",
+        "allow_empty": false,
+        "allow_extra_keys": false,
+        "order_sensitive": true,
+        "exclusive": false,
+        "cancel": true
+      }
+    },
+    "highlightWanderingTrader": {
+      "keys": "",
+      "settings": {
+        "activate_on": "PRESS",
+        "context": "INGAME",
+        "allow_empty": false,
+        "allow_extra_keys": false,
+        "order_sensitive": true,
+        "exclusive": false,
+        "cancel": true
+      }
+    },
+    "highlightPersistentMob": {
+      "keys": "",
+      "settings": {
+        "activate_on": "PRESS",
+        "context": "INGAME",
+        "allow_empty": false,
+        "allow_extra_keys": false,
+        "order_sensitive": true,
+        "exclusive": false,
+        "cancel": true
+      }
+    },
+    "preventIntentionalGameDesign": {
+      "keys": "",
+      "settings": {
+        "activate_on": "PRESS",
+        "context": "INGAME",
+        "allow_empty": false,
+        "allow_extra_keys": false,
+        "order_sensitive": true,
+        "exclusive": false,
+        "cancel": true
+      }
+    },
+    "realSneaking": {
+      "keys": "",
+      "settings": {
+        "activate_on": "PRESS",
+        "context": "INGAME",
+        "allow_empty": false,
+        "allow_extra_keys": false,
+        "order_sensitive": true,
+        "exclusive": false,
+        "cancel": true
+      }
+    },
+    "removeBreakingCooldown": {
+      "keys": "",
+      "settings": {
+        "activate_on": "PRESS",
+        "context": "INGAME",
+        "allow_empty": false,
+        "allow_extra_keys": false,
+        "order_sensitive": true,
+        "exclusive": false,
+        "cancel": true
+      }
+    },
+    "worldEaterMineHelper": {
+      "keys": "",
+      "settings": {
+        "activate_on": "PRESS",
+        "context": "INGAME",
+        "allow_empty": false,
+        "allow_extra_keys": false,
+        "order_sensitive": true,
+        "exclusive": false,
+        "cancel": true
+      }
+    }
+  },
+  "Lists": {
+    "breakBlockBlackList": [
+      "minecraft:budding_amethyst",
+      "_bud"
+    ],
+    "breakScaffoldingWhiteList": [
+      "minecraft:air",
+      "minecraft:scaffolding"
+    ],
+    "moveDownInScaffoldingWhiteList": [
+      "minecraft:air",
+      "minecraft:scaffolding"
+    ],
+    "worldEaterMineHelperWhitelist": [
+      "_ore",
+      "minecraft:ancient_debris",
+      "minecraft:obsidian"
+    ]
+  },
+  "AdvancedIntegratedServer": {
+    "onlineMode": true,
+    "pvp": true,
+    "flight": true,
+    "port": 0
+  },
+  "config_version": 1
+}
