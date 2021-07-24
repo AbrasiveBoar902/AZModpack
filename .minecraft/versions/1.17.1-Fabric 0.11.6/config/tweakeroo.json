@@ -3,8 +3,7 @@
     "elytraFix": true,
     "macHorizontalScroll": false,
     "profilerChartFix": true,
-    "ravagerClientBlockBreakFix": true,
-    "chestMirrorFix": true
+    "ravagerClientBlockBreakFix": true
   },
   "Generic": {
     "clientPlacementRotation": true,
@@ -23,16 +22,10 @@
     "snapAimIndicator": true,
     "snapAimPitchOvershoot": false,
     "zoomAdjustMouseSensitivity": true,
-    "areaSelectionUseAll": false,
-    "restrictionLayerHeight": 1,
     "breakingRestrictionMode": "plane",
     "elytraCameraIndicator": "always",
     "placementRestrictionMode": "plane",
     "hotbarSwapOverlayAlignment": "bottom_right",
-    "selectiveBlocksTrackPistons": true,
-    "selectiveBlocksHideParticles": true,
-    "selectiveBlocksHideEntities": false,
-    "selectiveBlocksNoHit": true,
     "snapAimMode": "yaw",
     "chatTimeFormat": "[HH:mm:ss]",
     "chatBackgroundColor": "#80000000",
@@ -71,15 +64,9 @@
     "sculkSensorPulseLength": 40,
     "snapAimPitchStep": 12.5,
     "snapAimYawStep": 45.0,
-    "structureBlockMaxSize": 128,
-    "zoomFov": 30.0,
-    "dayCycleOverrideTime": 0,
-    "scaffoldPlaceDistance": 5,
-    "scaffoldPlaceVanilla": false,
-    "containerScanMinItems": 1,
-    "containerScanMinTypes": 1,
-    "afkTimeout": 2400,
-    "afkAction": "/disconnect"
+    "structureBlockMaxSize": 256,
+    "toolSwitchableSlots": "1-9",
+    "zoomFov": 30.0
   },
   "GenericHotkeys": {
     "accurateBlockPlacementInto": {
@@ -238,18 +225,6 @@
         "cancel": true
       }
     },
-    "flexibleBlockPlacementHold": {
-      "keys": "",
-      "settings": {
-        "activate_on": "RELEASE",
-        "context": "INGAME",
-        "allow_empty": false,
-        "allow_extra_keys": true,
-        "order_sensitive": true,
-        "exclusive": false,
-        "cancel": false
-      }
-    },
     "flyPreset1": {
       "keys": "",
       "settings": {
@@ -396,42 +371,6 @@
     },
     "openConfigGui": {
       "keys": "X,C",
-      "settings": {
-        "activate_on": "PRESS",
-        "context": "INGAME",
-        "allow_empty": false,
-        "allow_extra_keys": false,
-        "order_sensitive": true,
-        "exclusive": false,
-        "cancel": true
-      }
-    },
-    "pistonInfoPush": {
-      "keys": "",
-      "settings": {
-        "activate_on": "PRESS",
-        "context": "INGAME",
-        "allow_empty": false,
-        "allow_extra_keys": true,
-        "order_sensitive": true,
-        "exclusive": false,
-        "cancel": true
-      }
-    },
-    "pistonInfoPull": {
-      "keys": "",
-      "settings": {
-        "activate_on": "PRESS",
-        "context": "INGAME",
-        "allow_empty": false,
-        "allow_extra_keys": true,
-        "order_sensitive": true,
-        "exclusive": false,
-        "cancel": true
-      }
-    },
-    "pistonInfoClear": {
-      "keys": "",
       "settings": {
         "activate_on": "PRESS",
         "context": "INGAME",
@@ -609,71 +548,11 @@
         "exclusive": false,
         "cancel": false
       }
-    },
-    "areaSelectionOffset": {
-      "keys": "LEFT_SHIFT",
-      "settings": {
-        "activate_on": "PRESS",
-        "context": "INGAME",
-        "allow_empty": false,
-        "allow_extra_keys": true,
-        "order_sensitive": true,
-        "exclusive": false,
-        "cancel": true
-      }
-    },
-    "areaSelectionAddToList": {
-      "keys": "",
-      "settings": {
-        "activate_on": "PRESS",
-        "context": "INGAME",
-        "allow_empty": false,
-        "allow_extra_keys": true,
-        "order_sensitive": true,
-        "exclusive": false,
-        "cancel": true
-      }
-    },
-    "areaSelectionRemoveFromList": {
-      "keys": "",
-      "settings": {
-        "activate_on": "PRESS",
-        "context": "INGAME",
-        "allow_empty": false,
-        "allow_extra_keys": true,
-        "order_sensitive": true,
-        "exclusive": false,
-        "cancel": true
-      }
-    },
-    "openItemList": {
-      "keys": "INSERT",
-      "settings": {
-        "activate_on": "PRESS",
-        "context": "INGAME",
-        "allow_empty": false,
-        "allow_extra_keys": false,
-        "order_sensitive": true,
-        "exclusive": false,
-        "cancel": true
-      }
-    },
-    "containerScannerClearCache": {
-      "keys": "",
-      "settings": {
-        "activate_on": "PRESS",
-        "context": "INGAME",
-        "allow_empty": false,
-        "allow_extra_keys": false,
-        "order_sensitive": true,
-        "exclusive": false,
-        "cancel": true
-      }
     }
   },
   "Internal": {
     "flySpeedPreset": 0,
-    "gammaValueOriginal": 0.0,
+    "gammaValueOriginal": 1.0,
     "hotbarScrollCurrentRow": 1,
     "slimeBlockSlipperinessOriginal": 0.800000011920929,
     "snapAimLastYaw": 270.0
@@ -721,12 +600,6 @@
       "minecraft:lava_bucket",
       "minecraft:glass_bottle"
     ],
-    "blockTypeBreakRestrictionMode": "none",
-    "blockTypeBreakWhiteList": [],
-    "blockTypeBreakBlackList": [],
-    "blockTypeRClickRestrictionMode": "none",
-    "blockTypeRClickWhiteList": [],
-    "blockTypeRClickBlackList": [],
     "flatWorldPresets": [
       "White Glass;1*minecraft:white_stained_glass;minecraft:plains;;minecraft:white_stained_glass",
       "Glass;1*minecraft:glass;minecraft:plains;;minecraft:glass"
@@ -750,18 +623,13 @@
     "unstackingItems": [
       "minecraft:bucket",
       "minecraft:glass_bottle"
-    ],
-    "selectiveBlocksListType": "none",
-    "selectiveBlocksWhitelist": "0,0,0|0,0,1",
-    "selectiveBlocksBlacklist": "0,0,0|0,0,1"
+    ]
   },
   "DisableToggles": {
     "disableArmorStandRendering": false,
     "disableAxeStripping": false,
     "disableBlockBreakingParticles": false,
-    "disableClientBlockEvents": false,
     "disableDoubleTapSprint": false,
-    "disableBossBar": false,
     "disableBossFog": true,
     "disableChunkRendering": false,
     "disableClientEntityUpdates": false,
@@ -789,9 +657,7 @@
     "disableTileEntityTicking": false,
     "disableVillagerTradeLocking": false,
     "disableWallUnsprint": true,
-    "disableWorldViewBob": false,
-    "disableContainerScanOutlines": false,
-    "disableNametags": false
+    "disableWorldViewBob": false
   },
   "DisableHotkeys": {
     "disableArmorStandRendering": {
@@ -830,31 +696,7 @@
         "cancel": true
       }
     },
-    "disableClientBlockEvents": {
-      "keys": "",
-      "settings": {
-        "activate_on": "PRESS",
-        "context": "INGAME",
-        "allow_empty": false,
-        "allow_extra_keys": false,
-        "order_sensitive": true,
-        "exclusive": false,
-        "cancel": true
-      }
-    },
     "disableDoubleTapSprint": {
-      "keys": "",
-      "settings": {
-        "activate_on": "PRESS",
-        "context": "INGAME",
-        "allow_empty": false,
-        "allow_extra_keys": false,
-        "order_sensitive": true,
-        "exclusive": false,
-        "cancel": true
-      }
-    },
-    "disableBossBar": {
       "keys": "",
       "settings": {
         "activate_on": "PRESS",
@@ -1201,37 +1043,12 @@
         "exclusive": false,
         "cancel": true
       }
-    },
-    "disableContainerScanOutlines": {
-      "keys": "",
-      "settings": {
-        "activate_on": "PRESS",
-        "context": "INGAME",
-        "allow_empty": false,
-        "allow_extra_keys": false,
-        "order_sensitive": true,
-        "exclusive": false,
-        "cancel": true
-      }
-    },
-    "disableNametags": {
-      "keys": "",
-      "settings": {
-        "activate_on": "PRESS",
-        "context": "INGAME",
-        "allow_empty": false,
-        "allow_extra_keys": false,
-        "order_sensitive": true,
-        "exclusive": false,
-        "cancel": true
-      }
     }
   },
   "TweakToggles": {
     "carpetAccuratePlacementProtocol": true,
     "fastPlacementRememberOrientation": true,
     "rememberFlexibleFromClick": false,
-    "stackFlexible": false,
     "tweakAccurateBlockPlacement": false,
     "tweakAfterClicker": false,
     "tweakAimLock": false,
@@ -1262,7 +1079,6 @@
     "tweakGammaOverride": true,
     "tweakHandRestock": false,
     "tweakHangableEntityBypass": false,
-    "tweakHideScoreboard": false,
     "tweakHoldAttack": false,
     "tweakHoldUse": false,
     "tweakHotbarScroll": true,
@@ -1280,7 +1096,6 @@
     "tweakPeriodicHoldUse": false,
     "tweakPermanentSneak": false,
     "tweakPermanentSprint": false,
-    "tweakPistonInfo": false,
     "tweakPlacementGrid": false,
     "tweakPlacementLimit": false,
     "tweakPlacementRestriction": false,
@@ -1294,7 +1109,6 @@
     "tweakRemoveOwnPotionEffects": true,
     "tweakRenderEdgeChunks": true,
     "tweakRenderInvisibleEntities": true,
-    "tweakRenderAllEntities": false,
     "tweakRenderLimitEntities": false,
     "tweakRepairMode": false,
     "tweakSculkPulseLength": false,
@@ -1304,21 +1118,12 @@
     "tweakSnapAimLock": false,
     "tweakSneak_1.15.2": false,
     "tweakSpectatorTeleport": true,
-    "tweakStructureBlockLimit": false,
+    "tweakStructureBlockLimit": true,
     "tweakSwapAlmostBrokenTools": false,
     "tweakTabCompleteCoordinate": true,
     "tweakToolSwitch": false,
     "tweakYMirror": false,
-    "tweakZoom": true,
-    "tweakSelectiveBlocksRendering": false,
-    "tweakSelectiveBlocksRenderOutline": false,
-    "tweakAreaSelector": false,
-    "tweakDayCycleOverride": false,
-    "tweakNoSneakSlowdown": false,
-    "tweakScaffoldPlace": false,
-    "tweakContainerScan": false,
-    "tweakContainerScanCounts": false,
-    "tweakAfkTimeout": false
+    "tweakZoom": true
   },
   "TweakHotkeys": {
     "carpetAccuratePlacementProtocol": {
@@ -1346,18 +1151,6 @@
       }
     },
     "rememberFlexibleFromClick": {
-      "keys": "",
-      "settings": {
-        "activate_on": "PRESS",
-        "context": "INGAME",
-        "allow_empty": false,
-        "allow_extra_keys": false,
-        "order_sensitive": true,
-        "exclusive": false,
-        "cancel": true
-      }
-    },
-    "stackFlexible": {
       "keys": "",
       "settings": {
         "activate_on": "PRESS",
@@ -1729,18 +1522,6 @@
         "cancel": true
       }
     },
-    "tweakHideScoreboard": {
-      "keys": "",
-      "settings": {
-        "activate_on": "PRESS",
-        "context": "INGAME",
-        "allow_empty": false,
-        "allow_extra_keys": false,
-        "order_sensitive": true,
-        "exclusive": false,
-        "cancel": true
-      }
-    },
     "tweakHoldAttack": {
       "keys": "X,A",
       "settings": {
@@ -1945,18 +1726,6 @@
         "cancel": true
       }
     },
-    "tweakPistonInfo": {
-      "keys": "",
-      "settings": {
-        "activate_on": "PRESS",
-        "context": "INGAME",
-        "allow_empty": false,
-        "allow_extra_keys": false,
-        "order_sensitive": true,
-        "exclusive": false,
-        "cancel": true
-      }
-    },
     "tweakPlacementGrid": {
       "keys": "",
       "settings": {
@@ -2102,18 +1871,6 @@
       }
     },
     "tweakRenderInvisibleEntities": {
-      "keys": "",
-      "settings": {
-        "activate_on": "PRESS",
-        "context": "INGAME",
-        "allow_empty": false,
-        "allow_extra_keys": false,
-        "order_sensitive": true,
-        "exclusive": false,
-        "cancel": true
-      }
-    },
-    "tweakRenderAllEntities": {
       "keys": "",
       "settings": {
         "activate_on": "PRESS",
@@ -2297,114 +2054,6 @@
       "keys": "",
       "settings": {
         "activate_on": "BOTH",
-        "context": "INGAME",
-        "allow_empty": false,
-        "allow_extra_keys": false,
-        "order_sensitive": true,
-        "exclusive": false,
-        "cancel": true
-      }
-    },
-    "tweakSelectiveBlocksRendering": {
-      "keys": "",
-      "settings": {
-        "activate_on": "PRESS",
-        "context": "INGAME",
-        "allow_empty": false,
-        "allow_extra_keys": false,
-        "order_sensitive": true,
-        "exclusive": false,
-        "cancel": true
-      }
-    },
-    "tweakSelectiveBlocksRenderOutline": {
-      "keys": "",
-      "settings": {
-        "activate_on": "PRESS",
-        "context": "INGAME",
-        "allow_empty": false,
-        "allow_extra_keys": false,
-        "order_sensitive": true,
-        "exclusive": false,
-        "cancel": true
-      }
-    },
-    "tweakAreaSelector": {
-      "keys": "",
-      "settings": {
-        "activate_on": "PRESS",
-        "context": "INGAME",
-        "allow_empty": false,
-        "allow_extra_keys": false,
-        "order_sensitive": true,
-        "exclusive": false,
-        "cancel": true
-      }
-    },
-    "tweakDayCycleOverride": {
-      "keys": "",
-      "settings": {
-        "activate_on": "PRESS",
-        "context": "INGAME",
-        "allow_empty": false,
-        "allow_extra_keys": false,
-        "order_sensitive": true,
-        "exclusive": false,
-        "cancel": true
-      }
-    },
-    "tweakNoSneakSlowdown": {
-      "keys": "",
-      "settings": {
-        "activate_on": "PRESS",
-        "context": "INGAME",
-        "allow_empty": false,
-        "allow_extra_keys": false,
-        "order_sensitive": true,
-        "exclusive": false,
-        "cancel": true
-      }
-    },
-    "tweakScaffoldPlace": {
-      "keys": "",
-      "settings": {
-        "activate_on": "PRESS",
-        "context": "INGAME",
-        "allow_empty": false,
-        "allow_extra_keys": false,
-        "order_sensitive": true,
-        "exclusive": false,
-        "cancel": true
-      }
-    },
-    "tweakContainerScan": {
-      "keys": "",
-      "settings": {
-        "activate_on": "PRESS",
-        "context": "INGAME",
-        "allow_empty": false,
-        "allow_extra_keys": false,
-        "order_sensitive": true,
-        "exclusive": false,
-        "cancel": true
-      }
-    },
-    "tweakContainerScanCounts": {
-      "keys": "",
-      "settings": {
-        "activate_on": "PRESS",
-        "context": "INGAME",
-        "allow_empty": false,
-        "allow_extra_keys": false,
-        "order_sensitive": true,
-        "exclusive": false,
-        "cancel": true
-      }
-    },
-    "tweakAfkTimeout": {
-      "keys": "",
-      "settings": {
-        "activate_on": "PRESS",
         "context": "INGAME",
         "allow_empty": false,
         "allow_extra_keys": false,

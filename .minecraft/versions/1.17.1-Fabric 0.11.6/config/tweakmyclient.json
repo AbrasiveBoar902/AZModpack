@@ -337,10 +337,10 @@
     }
   },
   "Feature": {
-    "featureAntiGhostItems": false,
+    "featureAntiGhostItems": true,
     "featureAutoDrop": false,
     "featureAutoReconnect": false,
-    "featureAutoRespawn": false,
+    "featureAutoRespawn": true,
     "featureCustomBlockOutsideColor": true,
     "featureCustomGuiBackgroundColor": false,
     "featureCustomSidebarBackgroundColor": false,

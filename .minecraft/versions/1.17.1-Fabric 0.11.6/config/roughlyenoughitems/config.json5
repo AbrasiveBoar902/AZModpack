@@ -32,7 +32,7 @@
 			"{data:{Count:1b,id:\"minecraft:sand\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}"
 		],
 		// Declares whether cheating mode is on.
-		"cheating": false,
+		"cheating": true,
 		"favoritesEnabled": false,
 		"keyBindings": {
 			"recipeKeybind": {

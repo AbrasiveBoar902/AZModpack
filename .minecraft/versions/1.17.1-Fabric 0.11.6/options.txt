@@ -14,13 +14,13 @@ reducedDebugInfo:false
 snooperEnabled:true
 showSubtitles:false
 touchscreen:false
-fullscreen:true
+fullscreen:false
 bobView:false
 toggleCrouch:false
 toggleSprint:true
 darkMojangStudiosBackground:false
 mouseSensitivity:0.5
-fov:0.55
+fov:0.0
 screenEffectScale:1.0
 fovEffectScale:1.0
 gamma:16.0
@@ -32,7 +32,7 @@ maxFps:260
 difficulty:2
 graphicsMode:0
 ao:0
-biomeBlendRadius:0
+biomeBlendRadius:2
 renderClouds:false
 resourcePacks:["vanilla","Fabric Mods","file/Minecraft-Mod-Language-Package-1.16.zip","cullleaves/smartleaves","visualoverhaul/coloredwaterbucket","visualoverhaul/nobrewingbottles","file/XeKr 原版红石显示1.17-V1.zip","visualoverhaul/fancyfurnace"]
 incompatibleResourcePacks:["file/Minecraft-Mod-Language-Package-1.16.zip"]
@@ -90,7 +90,7 @@ key_key.smoothCamera:key.keyboard.unknown
 key_key.fullscreen:key.keyboard.f11
 key_key.spectatorOutlines:key.keyboard.unknown
 key_key.swapOffhand:key.keyboard.f
-key_key.saveToolbarActivator:key.keyboard.c
+key_key.saveToolbarActivator:key.keyboard.unknown
 key_key.loadToolbarActivator:key.keyboard.x
 key_key.advancements:key.keyboard.l
 key_key.hotbar.1:key.keyboard.1
@@ -102,11 +102,9 @@ key_key.hotbar.6:key.keyboard.6
 key_key.hotbar.7:key.keyboard.7
 key_key.hotbar.8:key.keyboard.8
 key_key.hotbar.9:key.keyboard.9
+key_of.key.zoom:key.keyboard.c
 key_key.namepain.showculled:key.keyboard.unknown
 key_key.fabrishot.screenshot:key.keyboard.f9
-key_key.worldeditcui.toggle:key.keyboard.unknown
-key_key.worldeditcui.clear:key.keyboard.delete
-key_key.worldeditcui.chunk:key.keyboard.unknown
 key_key.dynamicfps.toggle_forced:key.keyboard.unknown
 key_key.dynamicfps.toggle_disabled:key.keyboard.unknown
 key_key.arrfab.view_recipes:key.keyboard.page.up
@@ -139,7 +137,6 @@ key_gui.xaero_new_waypoint:key.keyboard.b
 key_gui.xaero_display_all_sets:key.keyboard.unknown
 key_gui.xaero_toggle_light_overlay:key.keyboard.unknown
 key_gui.xaero_minimap_settings:key.keyboard.unknown
-key_key.ingameime.hotkey:key.keyboard.unknown
 key_key.inventoryhud.toggle:key.keyboard.unknown
 key_key.inventoryhud.openconfig:key.keyboard.unknown
 key_key.inventoryhud.togglepot:key.keyboard.unknown
@@ -162,3 +159,15 @@ modelPart_right_sleeve:true
 modelPart_left_pants_leg:true
 modelPart_right_pants_leg:true
 modelPart_hat:true
+
+key_iris.keybind.reload:key.keyboard.unknown
+key_iris.keybind.toggleShaders:key.keyboard.unknown
+key_iris.keybind.shaderPackSelection:key.keyboard.unknown
+
+key_iris.keybind.reload:key.keyboard.unknown
+key_iris.keybind.toggleShaders:key.keyboard.unknown
+key_iris.keybind.shaderPackSelection:key.keyboard.unknown
+
+key_iris.keybind.reload:key.keyboard.unknown
+key_iris.keybind.toggleShaders:key.keyboard.unknown
+key_iris.keybind.shaderPackSelection:key.keyboard.unknown

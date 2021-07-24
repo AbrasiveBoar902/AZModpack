@@ -15,7 +15,7 @@
     "debug": false,
     "dontClearChatHistory": true,
     "clearWaypoint": {
-      "keys": "C",
+      "keys": "",
       "settings": {
         "activate_on": "PRESS",
         "context": "INGAME",
@@ -39,7 +39,7 @@
         "cancel": true
       }
     },
-    "sortInventorySupportEmptyShulkerBoxStack": true
+    "sortInventorySupportEmptyShulkerBoxStack": false
   },
   "FeatureToggle": {
     "disableBreakBlock": false,
@@ -48,11 +48,11 @@
     "flatDigger": false,
     "forceBreakingCooldown": false,
     "highlightLavaSource": true,
-    "highlightWanderingTrader": true,
+    "highlightWanderingTrader": false,
     "highlightPersistentMob": false,
     "preventIntentionalGameDesign": false,
     "realSneaking": false,
-    "removeBreakingCooldown": false,
+    "removeBreakingCooldown": true,
     "worldEaterMineHelper": false
   },
   "FeatureHotkey": {
@@ -221,7 +221,7 @@
     ]
   },
   "AdvancedIntegratedServer": {
-    "onlineMode": true,
+    "onlineMode": false,
     "pvp": true,
     "flight": true,
     "port": 0

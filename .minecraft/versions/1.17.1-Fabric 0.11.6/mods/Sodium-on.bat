@@ -4,8 +4,7 @@ ren indium-1.0.0+mc1.17.1.jar.disabled indium-1.0.0+mc1.17.1.jar
 ren iris-mc1.17-1.1.0-starline+build.430.jar iris-mc1.17-1.1.0-starline+build.430.jar.disabled
 ren sodium-fabric-mc1.17.1-0.3.0+IRIS1-build.105.jar sodium-fabric-mc1.17.1-0.3.0+IRIS1-build.105.jar.disabled
 
-ren sodium-extra-mc1.17.1-0.3.2.jar.disabled sodium-extra-mc1.17.1-0.3.2.jar
-ren sodium-extra-mc1.17.1-0.3.3.jar sodium-extra-mc1.17.1-0.3.3.jar.disabled
+ren sodium-extra-mc1.17.1-0.3.3.jar.disabled sodium-extra-mc1.17.1-0.3.3.jar
 
 ren sodium-fabric-mc1.17.1-0.3.0+build.527.jar.disabled sodium-fabric-mc1.17.1-0.3.0+build.527.jar
 ren canvas-mc117-1.17-1.0.1816.jar canvas-mc117-1.17-1.0.1816.jar.disabled

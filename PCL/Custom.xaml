@@ -1,7 +1,9 @@
 ﻿<local:MyCard Title="版本信息" Margin="0,0,0,10">
-    <StackPanel Margin="25,35,23,5">
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                   Text="AZ's Modpack Beta 2.0.8" />
+    <StackPanel Margin="25,35,23,10">
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,7"
+                   Text="AbrasiveBoar902|zijinshanren's Modpack Beta 2.0.8" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,7"
+                   Text="项目地址 https://github.com/AbrasiveBoar902/AZModpack" />
         </StackPanel>
 </local:MyCard>
 
@@ -12,11 +14,9 @@
                    Text="必须使用JDK 16！下方有链接！" />
         <local:MyHint Margin="0,0,0,4" IsWarn="False"
                    Text="Canvas光影开启后再关闭，图像品质会被自动改为 极佳" />
-        <local:MyHint Margin="0,0,0,4" IsWarn="False"
-                   Text="小地图使用的是Xaero地图，因为voxel有bug，可以自行更换" />
       
-         <local:MyButton Margin="0,0,10,0" Width="280" Height="35" HorizontalAlignment="Center" Padding="13,0,13,0"  ColorType="Highlight"
-                   Text="启动1.17.1-Fabric 0.11.6" EventType="启动游戏" EventData="1.17.1-Fabric 0.11.6"/>
+         <local:MyButton Margin="0,5,10,0" Width="280" Height="35" HorizontalAlignment="Center" Padding="13,0,13,0"  ColorType="Highlight"
+                   Text="启动游戏" EventType="启动游戏" EventData="1.17.1-Fabric 0.11.6"/>
       
         <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,5,0,0">
             <local:MyButton Margin="0,0,10,0" Width="120" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"  ColorType="Red"
