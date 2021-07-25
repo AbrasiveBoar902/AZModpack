@@ -5,7 +5,7 @@ chatColors:true
 chatLinks:true
 chatLinksPrompt:true
 enableVsync:false
-entityShadows:false
+entityShadows:true
 forceUnicodeFont:true
 discrete_mouse_scroll:false
 invertYMouse:false
@@ -14,16 +14,16 @@ reducedDebugInfo:false
 snooperEnabled:true
 showSubtitles:false
 touchscreen:false
-fullscreen:false
+fullscreen:true
 bobView:false
 toggleCrouch:false
-toggleSprint:true
+toggleSprint:false
 darkMojangStudiosBackground:false
 mouseSensitivity:0.5
 fov:0.0
 screenEffectScale:1.0
 fovEffectScale:1.0
-gamma:16.0
+gamma:0.5017605633802817
 renderDistance:8
 entityDistanceScaling:5.0
 guiScale:3
@@ -31,10 +31,10 @@ particles:0
 maxFps:260
 difficulty:2
 graphicsMode:0
-ao:0
+ao:2
 biomeBlendRadius:2
 renderClouds:false
-resourcePacks:["vanilla","Fabric Mods","file/Minecraft-Mod-Language-Package-1.16.zip","cullleaves/smartleaves","visualoverhaul/coloredwaterbucket","visualoverhaul/nobrewingbottles","file/XeKr 原版红石显示1.17-V1.zip","visualoverhaul/fancyfurnace"]
+resourcePacks:["vanilla","Fabric Mods","file/Minecraft-Mod-Language-Package-1.16.zip","file/XeKr 原版红石显示1.17-V1.zip","cullleaves/smartleaves"]
 incompatibleResourcePacks:["file/Minecraft-Mod-Language-Package-1.16.zip"]
 lastServer:
 lang:zh_cn
@@ -45,7 +45,7 @@ textBackgroundOpacity:0.5
 backgroundForChatOnly:true
 hideServerAddress:false
 advancedItemTooltips:true
-pauseOnLostFocus:true
+pauseOnLostFocus:false
 overrideWidth:0
 overrideHeight:0
 heldItemTooltips:true
@@ -83,7 +83,7 @@ key_key.chat:key.keyboard.t
 key_key.playerlist:key.keyboard.tab
 key_key.pickItem:key.mouse.middle
 key_key.command:key.keyboard.slash
-key_key.socialInteractions:key.keyboard.p
+key_key.socialInteractions:key.keyboard.unknown
 key_key.screenshot:key.keyboard.f2
 key_key.togglePerspective:key.keyboard.f5
 key_key.smoothCamera:key.keyboard.unknown
@@ -102,9 +102,12 @@ key_key.hotbar.6:key.keyboard.6
 key_key.hotbar.7:key.keyboard.7
 key_key.hotbar.8:key.keyboard.8
 key_key.hotbar.9:key.keyboard.9
-key_of.key.zoom:key.keyboard.c
+key_pistorder.clear_display:key.keyboard.p
 key_key.namepain.showculled:key.keyboard.unknown
 key_key.fabrishot.screenshot:key.keyboard.f9
+key_key.worldeditcui.toggle:key.keyboard.unknown
+key_key.worldeditcui.clear:key.keyboard.delete
+key_key.worldeditcui.chunk:key.keyboard.unknown
 key_key.dynamicfps.toggle_forced:key.keyboard.unknown
 key_key.dynamicfps.toggle_disabled:key.keyboard.unknown
 key_key.arrfab.view_recipes:key.keyboard.page.up
@@ -114,6 +117,9 @@ key_gui.xaero_open_settings:key.keyboard.unknown
 key_gui.xaero_map_zoom_in:key.keyboard.unknown
 key_gui.xaero_map_zoom_out:key.keyboard.unknown
 key_gui.xaero_quick_confirm:key.keyboard.unknown
+key_iris.keybind.reload:key.keyboard.unknown
+key_iris.keybind.toggleShaders:key.keyboard.unknown
+key_iris.keybind.shaderPackSelection:key.keyboard.unknown
 key_key.autofish.open_gui:key.keyboard.v
 key_key.waila.config:key.keyboard.keypad.0
 key_key.waila.show_overlay:key.keyboard.keypad.1
@@ -137,12 +143,13 @@ key_gui.xaero_new_waypoint:key.keyboard.b
 key_gui.xaero_display_all_sets:key.keyboard.unknown
 key_gui.xaero_toggle_light_overlay:key.keyboard.unknown
 key_gui.xaero_minimap_settings:key.keyboard.unknown
+key_key.ingameime.hotkey:key.keyboard.home
 key_key.inventoryhud.toggle:key.keyboard.unknown
 key_key.inventoryhud.openconfig:key.keyboard.unknown
 key_key.inventoryhud.togglepot:key.keyboard.unknown
 key_key.inventoryhud.togglearm:key.keyboard.unknown
 key_key.inventoryhud.toggleall:key.keyboard.unknown
-soundCategory_master:0.0
+soundCategory_master:1.0
 soundCategory_music:1.0
 soundCategory_record:1.0
 soundCategory_weather:1.0
@@ -164,9 +171,29 @@ key_iris.keybind.reload:key.keyboard.unknown
 key_iris.keybind.toggleShaders:key.keyboard.unknown
 key_iris.keybind.shaderPackSelection:key.keyboard.unknown
 
-key_iris.keybind.reload:key.keyboard.unknown
-key_iris.keybind.toggleShaders:key.keyboard.unknown
-key_iris.keybind.shaderPackSelection:key.keyboard.unknown
+key_key.namepain.showculled:key.keyboard.unknown
+key_key.fabrishot.screenshot:key.keyboard.f9
+key_key.worldeditcui.toggle:key.keyboard.unknown
+key_key.worldeditcui.clear:key.keyboard.delete
+key_key.worldeditcui.chunk:key.keyboard.unknown
+key_key.dynamicfps.toggle_forced:key.keyboard.unknown
+key_key.dynamicfps.toggle_disabled:key.keyboard.unknown
+key_key.arrfab.view_recipes:key.keyboard.page.up
+key_key.arrfab.view_usages:key.keyboard.page.down
+key_key.autofish.open_gui:key.keyboard.v
+key_key.waila.config:key.keyboard.keypad.0
+key_key.waila.show_overlay:key.keyboard.keypad.1
+key_key.waila.toggle_liquid:key.keyboard.keypad.2
+key_key.waila.show_recipe_input:key.keyboard.keypad.3
+key_key.waila.show_recipe_output:key.keyboard.keypad.4
+key_key.antighost.reveal:key.keyboard.g
+key_key.petowner.hide:key.keyboard.unknown
+key_key.ingameime.hotkey:key.keyboard.home
+key_key.inventoryhud.toggle:key.keyboard.unknown
+key_key.inventoryhud.openconfig:key.keyboard.unknown
+key_key.inventoryhud.togglepot:key.keyboard.unknown
+key_key.inventoryhud.togglearm:key.keyboard.unknown
+key_key.inventoryhud.toggleall:key.keyboard.unknown
 
 key_iris.keybind.reload:key.keyboard.unknown
 key_iris.keybind.toggleShaders:key.keyboard.unknown

@@ -1,7 +1,7 @@
 ﻿<local:MyCard Title="版本信息" Margin="0,0,0,10">
     <StackPanel Margin="25,35,23,10">
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,7"
-                   Text="AbrasiveBoar902|zijinshanren's Modpack Beta 2.0.8" />
+                   Text="AbrasiveBoar902|zijinshanren's Modpack 2.0 Release Candidate 1" />
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,7"
                    Text="项目地址 https://github.com/AbrasiveBoar902/AZModpack" />
         </StackPanel>
@@ -15,8 +15,12 @@
         <local:MyHint Margin="0,0,0,4" IsWarn="False"
                    Text="Canvas光影开启后再关闭，图像品质会被自动改为 极佳" />
       
-         <local:MyButton Margin="0,5,10,0" Width="280" Height="35" HorizontalAlignment="Center" Padding="13,0,13,0"  ColorType="Highlight"
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,5,0,0">
+           <local:MyButton Margin="0,0,10,0" Width="230" Height="35" HorizontalAlignment="Center" Padding="13,0,13,0"  ColorType="Highlight"
                    Text="启动游戏" EventType="启动游戏" EventData="1.17.1-Fabric 0.11.6"/>
+           <local:MyButton Margin="0,0,10,0" Width="100" Height="35" HorizontalAlignment="Center" Padding="13,0,13,0"
+                   Text="Wiki" EventType="打开网页" EventData="https://github.com/AbrasiveBoar902/AZModpack/wiki" />
+        </StackPanel>
       
         <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,5,0,0">
             <local:MyButton Margin="0,0,10,0" Width="120" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"  ColorType="Red"
@@ -59,17 +63,19 @@
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Foreground="#8C7721"
                    Text="2021/7/14 更新一些mod，添加连接纹理，调整一些按键和默认值设置，添加卡片" />
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Foreground="#8C7721"
-                   Text="2021/7/20 V2.0-RC1 增加很多mod，修改一些按键，修改options切换方式" />
+                   Text="2021/7/20 Beta 2.0.1 增加很多mod，修改一些按键，修改options切换方式" />
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Foreground="#8C7721"
-                   Text="2021/7/22 V2.0-RC3 各种修改，sodium退回b.503" />
+                   Text="2021/7/22 Beta 2.0.3 各种修改，sodium退回b.503" />
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Foreground="#8C7721"
-                   Text="2021/7/22 V2.0-RC4 对iris和sodium更改不同的兼容mod，各种更改" />
+                   Text="2021/7/22 Beta 2.0.4 对iris和sodium更改不同的兼容mod，各种更改" />
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Foreground="#8C7721"
-                   Text="2021/7/22 V2.0-RC6 增加一些mod，各种更改" />
+                   Text="2021/7/22 Beta 2.0.6 增加一些mod，各种更改" />
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Foreground="#8C7721"
                    Text="2021/7/22 Beta 2.0.7 增加一些mod，各种更改" />
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Foreground="#8C7721"
-                   Text="2021/7/22 Beta 2.0.8 增加optifine模式" />
+                   Text="2021/7/23 Beta 2.0.8 增加optifine模式" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Foreground="#8C7721"
+                   Text="2021/7/25 2.0-RC1 修复一堆bug，更改sodium版本到b.524，改变一些设置到默认" />
     </StackPanel>
 </local:MyCard>
 
@@ -82,6 +88,8 @@
         <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,10,0,0">
                 <local:MyButton Margin="0,0,10,0" Width="180" Height="35" HorizontalAlignment="Center" Padding="13,0,13,0"
                        Text="作者" EventType="打开网页" EventData="https://space.bilibili.com/1938528984" />
+                <local:MyButton Margin="0,0,10,0" Width="180" Height="35" HorizontalAlignment="Center" Padding="13,0,13,0"
+                       Text="项目链接" EventType="打开网页" EventData="https://github.com/AbrasiveBoar902/AZModpack" />
         </StackPanel>
    </StackPanel>
 </local:MyCard>
