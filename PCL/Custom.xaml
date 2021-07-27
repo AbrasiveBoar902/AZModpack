@@ -1,7 +1,7 @@
 ﻿<local:MyCard Title="版本信息" Margin="0,0,0,10">
     <StackPanel Margin="25,35,23,10">
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,7"
-                   Text="AbrasiveBoar902|zijinshanren's Modpack 2.0 Release Candidate 1" />
+                   Text="AbrasiveBoar902|zijinshanren's Modpack 2.0 Release Candidate 2" />
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,7"
                    Text="项目地址 https://github.com/AbrasiveBoar902/AZModpack" />
         </StackPanel>
