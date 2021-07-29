@@ -1,0 +1,38 @@
+{
+  "clickthrough.config.sneaktodye": {
+    "key": "潜行以染色告示牌",
+    "toolTip": "clickthrough.config.tt.sneaktodye",
+    "value": true,
+    "defaultValue": true
+  },
+  "clickthrough.config.ignore.3": {
+    "key": "第三行匹配时忽略此告示牌：",
+    "toolTip": "clickthrough.config.tt.ignore.3",
+    "value": "b\\s*\\d+|b\\s*\\d+\\s*:\\s*\\d+\\s*s|\\d+\\s*s",
+    "defaultValue": "b\\s*\\d+|b\\s*\\d+\\s*:\\s*\\d+\\s*s|\\d+\\s*s"
+  },
+  "clickthrough.config.ignore.4": {
+    "key": "第四行匹配时忽略此告示牌：",
+    "toolTip": "clickthrough.config.tt.ignore.4",
+    "value": "",
+    "defaultValue": ""
+  },
+  "clickthrough.config.onlycontainers": {
+    "key": "仅在容器上时穿过告示牌",
+    "toolTip": "clickthrough.config.tt.onlycontainers",
+    "value": false,
+    "defaultValue": false
+  },
+  "clickthrough.config.ignore.1": {
+    "key": "第一行匹配时忽略此告示牌：",
+    "toolTip": "clickthrough.config.tt.ignore.1",
+    "value": "\\[\\D+\\]",
+    "defaultValue": "\\[\\D+\\]"
+  },
+  "clickthrough.config.ignore.2": {
+    "key": "第二行匹配时忽略此告示牌：",
+    "toolTip": "clickthrough.config.tt.ignore.2",
+    "value": "",
+    "defaultValue": ""
+  }
+}

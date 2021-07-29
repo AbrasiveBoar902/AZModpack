@@ -1,0 +1,7 @@
+{
+  "brewingstand": true,
+  "jukebox": false,
+  "jukebox_fake_block": false,
+  "furnace": false,
+  "coloredItems": true
+}
