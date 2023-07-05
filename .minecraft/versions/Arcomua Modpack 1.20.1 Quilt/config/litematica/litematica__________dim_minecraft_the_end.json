@@ -1,0 +1,43 @@
+{
+  "selections": {
+    "mode": "SIMPLE"
+  },
+  "placements": {},
+  "schematic_projects_manager": {},
+  "operation_mode": "SCHEMATIC_PLACEMENT",
+  "render_range": {
+    "mode": "ALL",
+    "axis": "y",
+    "layer_single": 0,
+    "layer_above": 0,
+    "layer_below": 0,
+    "layer_range_min": 0,
+    "layer_range_max": 0,
+    "hotkey_range_min": false,
+    "hotkey_range_max": false
+  },
+  "area_simple": {
+    "name": "药水棒冰大佬的建筑(高饱和 补丁",
+    "current": "药水棒冰大佬的建筑(高饱和 补丁",
+    "boxes": [
+      {
+        "pos1": [
+          -101,
+          0,
+          -31
+        ],
+        "pos2": [
+          -91,
+          79,
+          30
+        ],
+        "name": "药水棒冰大佬的建筑(高饱和 补丁"
+      }
+    ]
+  },
+  "tool_mode_data": {
+    "delete": {
+      "use_placement": false
+    }
+  }
+}

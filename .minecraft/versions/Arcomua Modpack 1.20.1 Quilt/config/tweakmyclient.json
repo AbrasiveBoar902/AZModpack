@@ -1,0 +1,402 @@
+{
+  "generic": {
+    "crystalBeamsDisableMode": "all",
+    "breakAnimationMode": "none",
+    "customBlockHitBoxOverlayOutlineRainbowSpeed": 80,
+    "memoryCleaner": {
+      "keys": ""
+    },
+    "targetBlockPositionPrintMode": "private",
+    "customBlockHitBoxOverlayFillRainbow": false,
+    "customBlockHitBoxOverlayOutlineRainbow": false,
+    "customBlockHitBoxOverlayDisableDepthTest": false,
+    "customWindowTitleRandomly": false,
+    "daylightOverrideTime": 6000,
+    "targetBlockMaxTraceDistance": 100,
+    "customBlockHitBoxOverlayFillRainbowSpeed": 80,
+    "syncInventory": {
+      "keys": ""
+    },
+    "enderPortalRenderMode": "actual",
+    "autoDropInterval": 0,
+    "targetBlockPositionFormat": "I\u0027m looking at [x: {X}, y: {Y}, z: {Z}]",
+    "openConfigGui": {
+      "keys": "T,C"
+    },
+    "customBlockHitBoxOverlayLinkedAdapter": true,
+    "lowHealthThreshold": 6.0,
+    "syncBlocks": {
+      "keys": ""
+    },
+    "autoReconnectTimer": 5,
+    "customWindowTitleEnableActivity": true,
+    "getTargetBlockPosition": {
+      "keys": ""
+    }
+  },
+  "patch": {
+    "forceDebugInfoDetailed": false,
+    "notEnoughCrashesBlueScreenOfDeath": false,
+    "forcePistonWithoutAffectByTool": false,
+    "endPortalRendererFix": false,
+    "disableResourcePackCompatCheck": false,
+    "chunkEdgeLagFix": false,
+    "disableLitematicaSchematicVersionCheck": false,
+    "disableLitematicaEasyPlaceFailTip": false
+  },
+  "list": {
+    "listCustomWindowTitle": [
+      "{mc_username} - Arcomua Modpack 230621 - Minecraft {mc_version} with Quilt Loader"
+    ],
+    "listBreakingRestrictionBoxWhitelist": [
+      "-1 -1 -1 1 1 1"
+    ],
+    "listItemGlowingBlacklist": [
+      "minecraft:enchanted_book",
+      "potion"
+    ],
+    "listCustomWindowTitleWithActivity": [
+      "{mc_username} - Arcomua Modpack 230621 - Minecraft {mc_version} {mc_activity} with Quilt Loader"
+    ],
+    "listAutoDropWhiteList": [
+      "minecraft:stone",
+      "minecraft:dirt",
+      "minecraft:cobblestone",
+      "minecraft:gravel",
+      "minecraft:rotten_flesh"
+    ],
+    "listAutoDropBlackList": [
+      "minecraft:bow",
+      "minecraft:crossbow",
+      "minecraft:diamond_axe",
+      "minecraft:diamond_boots",
+      "minecraft:diamond_chestplate",
+      "minecraft:diamond_helmet",
+      "minecraft:diamond_hoe",
+      "minecraft:diamond_leggings",
+      "minecraft:diamond_pickaxe",
+      "minecraft:diamond_shovel",
+      "minecraft:diamond_sword",
+      "minecraft:elytra",
+      "minecraft:enchanted_golden_apple",
+      "minecraft:flint_and_steel",
+      "minecraft:fishing_rod",
+      "minecraft:golden_apple",
+      "minecraft:golden_axe",
+      "minecraft:golden_boots",
+      "minecraft:golden_chestplate",
+      "minecraft:golden_helmet",
+      "minecraft:golden_hoe",
+      "minecraft:golden_leggings",
+      "minecraft:golden_pickaxe",
+      "minecraft:golden_shovel",
+      "minecraft:golden_sword",
+      "minecraft:iron_axe",
+      "minecraft:iron_boots",
+      "minecraft:iron_chestplate",
+      "minecraft:iron_helmet",
+      "minecraft:iron_hoe",
+      "minecraft:iron_leggings",
+      "minecraft:iron_pickaxe",
+      "minecraft:iron_shovel",
+      "minecraft:iron_sword",
+      "minecraft:netherite_axe",
+      "minecraft:netherite_boots",
+      "minecraft:netherite_chestplate",
+      "minecraft:netherite_helmet",
+      "minecraft:netherite_hoe",
+      "minecraft:netherite_leggings",
+      "minecraft:netherite_pickaxe",
+      "minecraft:netherite_shovel",
+      "minecraft:netherite_sword",
+      "minecraft:shears",
+      "minecraft:shield",
+      "minecraft:totem_of_undying",
+      "minecraft:trident",
+      "minecraft:turtle_helmet"
+    ],
+    "listAutoDropType": "whiteList",
+    "listDisableClientEntityUpdates": [
+      "zombi"
+    ],
+    "listBreakingRestrictionBoxBlacklist": [
+      "-1 -1 -1 1 1 1"
+    ],
+    "listDisableClientEntityRendering": [
+      "zombi"
+    ],
+    "listDisableAttackEntity": [
+      "player"
+    ],
+    "listBreakingRestrictionBoxType": "whiteList"
+  },
+  "color": {
+    "colorWaterShallow": "#7FFF0000",
+    "colorGuiStart": "#C00F0F0F",
+    "colorSidebarContent": "#4C000000",
+    "colorBreakingRestrictionBoxWhitelistMode": "#7F00FF00",
+    "colorBlockHitBoxOverlayOutline": "#66000000",
+    "colorSidebarTitle": "#66000000",
+    "colorGuiStop": "#D00F0F0F",
+    "colorWaterOpen": "#7F00FF00",
+    "colorBlockHitBoxOverlayFill": "#2CFFFF10",
+    "colorBreakingRestrictionBoxBlacklistMode": "#7FFF0000"
+  },
+  "feature": {
+    "featureCustomBlockHitBoxOverlayOutline": {
+      "enabled": false,
+      "hotkey": {
+        "keys": ""
+      }
+    },
+    "featureAutoTotem": {
+      "enabled": false,
+      "hotkey": {
+        "keys": ""
+      }
+    },
+    "featureBreakingRestrictionBox": {
+      "enabled": false,
+      "hotkey": {
+        "keys": ""
+      }
+    },
+    "featureAutoRespawn": {
+      "enabled": false,
+      "hotkey": {
+        "keys": ""
+      }
+    },
+    "featureAutoReconnect": {
+      "enabled": false,
+      "hotkey": {
+        "keys": ""
+      }
+    },
+    "featureDaylightOverride": {
+      "enabled": false,
+      "hotkey": {
+        "keys": ""
+      }
+    },
+    "featureUnfocusedCPU": {
+      "enabled": false,
+      "hotkey": {
+        "keys": ""
+      }
+    },
+    "featureLowHealthWarning": {
+      "enabled": false,
+      "hotkey": {
+        "keys": ""
+      }
+    },
+    "featureGlobalEventListener": {
+      "enabled": false,
+      "hotkey": {
+        "keys": ""
+      }
+    },
+    "featureOpenWaterHelper": {
+      "enabled": false,
+      "hotkey": {
+        "keys": ""
+      }
+    },
+    "featureAutoDrop": {
+      "enabled": false,
+      "hotkey": {
+        "keys": ""
+      }
+    },
+    "featureCustomSidebarBackgroundColor": {
+      "enabled": false,
+      "hotkey": {
+        "keys": ""
+      }
+    },
+    "featureCustomBlockHitBoxOverlayFill": {
+      "enabled": false,
+      "hotkey": {
+        "keys": ""
+      }
+    },
+    "featureCustomGuiBackgroundColor": {
+      "enabled": false,
+      "hotkey": {
+        "keys": ""
+      }
+    },
+    "featureCustomWindowIcon": {
+      "enabled": false,
+      "hotkey": {
+        "keys": ""
+      }
+    },
+    "featureCustomWindowTitle": {
+      "enabled": true,
+      "hotkey": {
+        "keys": ""
+      }
+    },
+    "featureAutoClimb": {
+      "enabled": false,
+      "hotkey": {
+        "keys": ""
+      }
+    }
+  },
+  "disable": {
+    "disableClientEntityInListUpdates": {
+      "enabled": false,
+      "hotkey": {
+        "keys": ""
+      }
+    },
+    "disableRenderOverlayFire": {
+      "enabled": false,
+      "hotkey": {
+        "keys": ""
+      }
+    },
+    "disableSwimming": {
+      "enabled": false,
+      "hotkey": {
+        "keys": ""
+      }
+    },
+    "disableRenderOverlayPumpkin": {
+      "enabled": false,
+      "hotkey": {
+        "keys": ""
+      }
+    },
+    "disableAttackEntity": {
+      "enabled": false,
+      "hotkey": {
+        "keys": ""
+      }
+    },
+    "disableClientBlockEvents": {
+      "enabled": false,
+      "hotkey": {
+        "keys": ""
+      }
+    },
+    "disableRenderOverlayPowderSnow": {
+      "enabled": false,
+      "hotkey": {
+        "keys": ""
+      }
+    },
+    "disableRenderToast": {
+      "enabled": false,
+      "hotkey": {
+        "keys": ""
+      }
+    },
+    "disableClientEntityInListRendering": {
+      "enabled": false,
+      "hotkey": {
+        "keys": ""
+      }
+    },
+    "disableFovAffectedBySpeed": {
+      "enabled": false,
+      "hotkey": {
+        "keys": ""
+      }
+    },
+    "disableCrystalBeams": {
+      "enabled": false,
+      "hotkey": {
+        "keys": ""
+      }
+    },
+    "disableClientEntityWitherRendering": {
+      "enabled": false,
+      "hotkey": {
+        "keys": ""
+      }
+    },
+    "disableSlowdown": {
+      "enabled": false,
+      "hotkey": {
+        "keys": ""
+      }
+    },
+    "disableRenderBossBar": {
+      "enabled": false,
+      "hotkey": {
+        "keys": ""
+      }
+    },
+    "disableClientEntityZombieVillagerRendering": {
+      "enabled": false,
+      "hotkey": {
+        "keys": ""
+      }
+    },
+    "disableClientEntityZombieVillagerUpdates": {
+      "enabled": false,
+      "hotkey": {
+        "keys": ""
+      }
+    },
+    "disableGuiShadowLayer": {
+      "enabled": false,
+      "hotkey": {
+        "keys": ""
+      }
+    },
+    "disableClientEntityTNTRendering": {
+      "enabled": false,
+      "hotkey": {
+        "keys": ""
+      }
+    },
+    "disableClientEntityTNTUpdates": {
+      "enabled": false,
+      "hotkey": {
+        "keys": ""
+      }
+    },
+    "disableRenderEffectBox": {
+      "enabled": false,
+      "hotkey": {
+        "keys": ""
+      }
+    },
+    "disableRenderScoreboard": {
+      "enabled": false,
+      "hotkey": {
+        "keys": ""
+      }
+    },
+    "disableItemGlowing": {
+      "enabled": false,
+      "hotkey": {
+        "keys": ""
+      }
+    },
+    "disableClientEntityWitherUpdates": {
+      "enabled": false,
+      "hotkey": {
+        "keys": ""
+      }
+    }
+  },
+  "debug": {
+    "expNullPointerExceptionTest": {
+      "keys": ""
+    },
+    "debugExperimentalMode": false,
+    "expCustomBlockHitBoxOverlayLinkedAdapterSupportPointedDripstoneBlock": false,
+    "expXiBao": false,
+    "debugMode": false,
+    "expUnsafeIllegalPutTest": {
+      "keys": ""
+    }
+  },
+  "configVersion": 1
+}

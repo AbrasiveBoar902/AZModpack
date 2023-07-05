@@ -1,0 +1,18 @@
+{
+	"showValue": true,
+	"showMaxMin": false,
+	"enableTooltip": true,
+	"valueUp": false,
+	"useColors": true,
+	"goodColor": -16731136,
+	"neutralColor": -12171706,
+	"badColor": -65536,
+	"goodHorseJumpValue": 4.0,
+	"badHorseJumpValue": 2.5,
+	"goodHorseSpeedValue": 11.0,
+	"badHorseSpeedValue": 7.0,
+	"goodHorseHeartsValue": 25.0,
+	"badHorseHeartsValue": 20.0,
+	"goodStrengthValue": 9.0,
+	"badStrengthValue": 6.0
+}
