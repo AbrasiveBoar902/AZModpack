@@ -1,0 +1,155 @@
+[22:15:39.210] [Start] 程序版本：Release 2.2.1（231）
+[22:15:39.211] [Start] 识别码：FA87-9E48-2DBB-B57C
+[22:15:39.211] [Start] 程序路径：D:\Documents\GitHub\120\AZModpack_safe\
+[22:15:39.218] [Start] 第一阶段加载用时：156 ms
+[22:15:39.292] [Start] 版本号从 224 升高到 231
+[22:15:39.293] [Start] 最高版本号从 0 升高到 231
+[22:15:39.341] [Loader] 加载器 Minecraft Folder List 状态改变：Loading
+[22:15:39.342] [Start] 第二阶段加载用时：125 ms
+[22:15:39.561] [Start] 加载 DLL：Json
+[22:15:39.561] [System] 获取资源：Json
+[22:15:39.618] [Java] 缓存中有 4 个可用的 Java
+[22:15:39.668] [System] 窗口已置顶，位置：(530, 107), 860 x 866
+[22:15:39.671] [Start] 第三阶段加载用时：125 ms
+[22:15:39.674] [System] 尝试从本地文件读取主页自定义数据（6105）
+[22:15:39.677] [Launch] Minecraft 文件夹：C:\Users\suyue\AppData\Roaming\.minecraft\
+[22:15:39.677] [Launch] Minecraft 版本无效，没有有效版本
+[22:15:39.684] [Loader] 加载器 Minecraft Version List 状态改变：Loading
+[22:15:39.707] [Loader] 加载器 Loader Skin Ms 状态改变：Loading
+[22:15:39.711] [Loader] 加载器 Loader Skin Ms 状态改变：Finished
+[22:15:39.722] [Loader] 加载器 Minecraft Folder List 状态改变：Finished
+[22:15:39.740] [System] 加载主页自定义数据
+[22:15:39.772] [Skin] 载入头像成功：Loader Skin Ms
+[22:15:39.775] [Setup] 当前选择的 Minecraft 版本：
+[22:15:39.775] [Minecraft] 未找到可用 Minecraft 版本
+[22:15:39.775] [Loader] 加载器 Minecraft Version List 状态改变：Finished
+[22:15:39.787] [Launch] 无可用 Minecraft 版本
+[22:15:39.803] [Control] 普通弹窗：PCL2 已更新至 Release 2.2.1
+· 联机功能的早期测试（尚未完成，延迟很高，之后会优化的）
+· 添加帮助页面，且可以自行添加、删除其中的内容
+· 游戏崩溃后，PCL2 会自动进行分析，并给出原因与处理建议
+· 重制背景音乐播放，暂停与下一曲现在通过右下角的按钮控制
+· 支持启动器自动更新与更新提示
+· 可以根据游戏版本自动选择所需的 Java
+· 优化启动器更新，允许在设置页面手动检查更新
+· 支持 1.17.1 Forge、Fabric 的安装与启动
+· 界面与动画综合优化，重新制作主题配色
+· 允许在 Java 版本检测不通过时强制指定使用 Java
+· 其他 163 项小调整与修改，修复了 151 个 Bug，详见完整更新日志
+[22:15:39.808] [Minecraft] 启动按钮：无 Minecraft 版本，要求下载
+[22:15:39.811] [Loader] 加载器 登录 状态改变：Loading
+[22:15:39.812] [Launch] 登录线程已启动
+[22:15:39.813] [Loader] 加载器 Loader Login Ms 状态改变：Loading
+[22:15:39.814] [Launch] 登录方式：微软正版（Safe_Saffawa）
+[22:15:39.815] [Launch] 开始微软登录步骤 2（刷新登录）
+[22:15:39.818] [Net] 发起网络请求（POST，https://login.live.com/oauth20_token.srf），最大超时 30000
+[22:15:40.048] [System] DPI：96，工作区尺寸：1920 x 1080，系统版本：10.0.19042.0
+[22:15:40.189] [Loader] 加载器 DlClientList Mojang 状态改变：Loading
+[22:15:40.190] [Loader] 加载器 PCL2 服务 状态改变：Loading
+[22:15:40.190] [Server] 正在连接到 PCL2 服务器
+[22:15:40.192] [Net] 获取网络结果：https://launchermeta.mojang.com/mc/game/version_manifest.json，最大超时 10000
+[22:15:40.195] [Net] 获取网络结果：http://pcl2-server-1253424809.file.myqcloud.com/notice.cfg?sign=1688566540-23f34341-0-8c7755fb494237cb88566e4a59d5c26e，最大超时 10000
+[22:15:40.295] [Server] 服务器公告：111|297|296|5，无需更新
+[22:15:40.300] [Loader] 加载器 源码获取 107# 状态改变：Loading
+[22:15:40.314] [Download] -1619160048_106 110#：开始，起始点 0，http://pcl2-server-1253424809.file.myqcloud.com/minecraft/download.json?sign=1688566540-0d36bd16-0-eb09ef3bae8d49cf6a2270c5f1a23176
+[22:15:40.380] [Download] -1619160048_106：文件大小 3896 B（3.8 K）
+[22:15:40.386] [Download] -1619160048_106：已完成，剩余文件 0
+[22:15:40.386] [Loader] 加载器 源码获取 107# 状态改变：Finished
+[22:15:40.406] [Loader] 加载器 PCL2 服务 状态改变：Finished
+[22:15:40.499] [Launch] 开始微软登录步骤 3
+[22:15:40.500] [Net] 发起网络请求（POST，https://user.auth.xboxlive.com/user/authenticate），最大超时 30000
+[22:15:40.527] [Net] 发起网络请求（POST，https://user.auth.xboxlive.com/user/authenticate），最大超时 30000
+[22:15:40.557] [Net] 发起网络请求（POST，https://user.auth.xboxlive.com/user/authenticate），最大超时 30000
+[22:15:40.730] [Loader] 加载器 DlClientList Mojang 状态改变：Finished
+[22:15:41.202] [Launch] 开始微软登录步骤 4
+[22:15:41.202] [Net] 发起网络请求（POST，https://xsts.auth.xboxlive.com/xsts/authorize），最大超时 30000
+[22:15:41.234] [Net] 发起网络请求（POST，https://xsts.auth.xboxlive.com/xsts/authorize），最大超时 30000
+[22:15:41.264] [Net] 发起网络请求（POST，https://xsts.auth.xboxlive.com/xsts/authorize），最大超时 30000
+[22:15:41.419] [Control] 按下按钮：确定
+[22:15:41.419] [Control] 普通弹框返回：1
+[22:15:42.064] [Launch] 开始微软登录步骤 5
+[22:15:42.065] [Net] 发起网络请求（POST，https://api.minecraftservices.com/authentication/login_with_xbox），最大超时 30000
+[22:15:42.094] [Net] 发起网络请求（POST，https://api.minecraftservices.com/authentication/login_with_xbox），最大超时 30000
+[22:15:42.740] [Launch] 开始微软登录步骤 6
+[22:15:42.740] [Net] 发起网络请求（GET，https://api.minecraftservices.com/minecraft/profile），最大超时 30000
+[22:15:42.772] [Net] 发起网络请求（GET，https://api.minecraftservices.com/minecraft/profile），最大超时 30000
+[22:15:43.289] [Launch] 微软登录完成
+[22:15:43.289] [Loader] 加载器 Loader Login Ms 状态改变：Finished
+[22:15:43.304] [Loader] 加载器 登录 状态改变：Finished
+[22:15:44.026] [Control] 按下单选按钮：联机
+[22:15:44.072] [Control] 切换主要页面：Link, -1
+[22:15:44.196] [Link] 联机模块初始化开始
+[22:15:44.197] [Loader] 加载器 联机模块初始化 状态改变：Loading
+[22:15:44.198] [Loader] 加载器 初次启动尝试 状态改变：Loading
+[22:15:44.211] [Link] 设置版本强制要求联机模块更新
+[22:15:44.211] [Link] 需要下载联机模块
+[22:15:44.212] [Loader] 加载器 初次启动尝试 状态改变：Finished
+[22:15:44.212] [Loader] 加载器 下载更新文件 状态改变：Loading
+[22:15:44.308] [Download] 联机模块.zip 137#：开始，起始点 0，https://pcl2-server-1253424809.file.myqcloud.com/link/ioi_x64.zip?sign=1688566544-3771953a-0-d0ee6d07d31e636e135ab6fa2d03e1d1
+[22:15:44.608] [Download] 联机模块.zip 137#：出错，远程服务器返回错误: (404) 未找到。
+   在 PCL.ModNet.NetFile.Thread(NetThread Info)
+错误类型：System.Net.WebException
+[22:15:44.608] [Download] 联机模块.zip 136#：下载源被禁用（0）：https://pcl2-server-1253424809.file.myqcloud.com/link/ioi_x64.zip?sign=1688566544-3771953a-0-d0ee6d07d31e636e135ab6fa2d03e1d1
+[22:15:44.609] 下载源 0 已被禁用：远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 PCL.ModNet.NetFile.Thread(NetThread Info)
+错误类型：System.Net.WebException
+[22:15:44.609] [Download] 文件 联机模块.zip 已无可用下载源
+[22:15:44.609] [Download] 已禁用的下载源：https://pcl2-server-1253424809.file.myqcloud.com/link/ioi_x64.zip?sign=1688566544-3771953a-0-d0ee6d07d31e636e135ab6fa2d03e1d1
+[22:15:44.609] 下载源禁用原因：远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 PCL.ModNet.NetFile.Thread(NetThread Info)
+错误类型：System.Net.WebException
+[22:15:44.609] [Download] 联机模块.zip：已失败，剩余文件 0
+[22:15:44.610] [Loader] 加载器 下载更新文件 状态改变：Failed
+[22:15:44.611] [Loader] 加载器 联机模块初始化 状态改变：Failed
+[22:15:44.611] [Loader] 加载器 初次启动尝试 状态改变：Aborted
+[22:15:44.611] [Loader] 加载器 二次启动尝试 状态改变：Aborted
+[22:15:44.611] [Download] 远程服务器返回错误: (404) 未找到。
+   在 PCL.ModNet.NetFile.Thread(NetThread Info)
+错误类型：System.Net.WebException
+[22:15:47.002] [Control] 按下单选按钮：启动
+[22:15:47.007] [Control] 切换主要页面：Launch, -1
+[22:15:48.370] [Control] 按下单选按钮：更多
+[22:15:48.391] [Control] 切换主要页面：Other, -1
+[22:15:48.536] [Loader] 加载器 Help List UI Loader 状态改变：Loading
+[22:15:48.537] [Loader] 加载器 Help Page 状态改变：Loading
+[22:15:48.539] [Help] 正在检查内置帮助文件
+[22:15:48.547] [System] 获取资源：Help
+[22:15:48.594] [Help] 已解压内置帮助文件
+[22:15:48.594] [Help] 已扫描 PCL 文件夹下的帮助文件，目前总计 0 条
+[22:15:48.596] [Help] 已扫描缓存文件夹下的帮助文件，目前总计 32 条
+[22:15:48.601] [Loader] 加载器 Help Page 状态改变：Finished
+[22:15:48.610] [Loader] 加载器 Help List UI Loader 状态改变：Finished
+[22:15:49.571] [Control] 按下单选列表项：百宝箱
+[22:15:49.665] [Report] FPS 0, 动画 14, 下载中 0
+[22:15:49.914] [Control] 按下单选列表项：关于与鸣谢
+[22:15:54.091] [Control] 按下单选列表项：百宝箱
+[22:15:55.594] [Control] 按下单选按钮：设置
+[22:15:55.651] [Control] 切换主要页面：Setup, -1
+[22:15:55.788] [Loader] 加载器 Loader Skin Legacy 状态改变：Loading
+[22:15:55.790] [Loader] 加载器 Loader Skin Legacy 状态改变：Finished
+[22:15:56.410] [Control] 按下单选列表项：启动器
+[22:15:57.483] [Control] 按下按钮：检查更新
+[22:15:57.543] [UI] 弹出提示：正在检查更新，请稍候！
+[22:15:57.548] [Control] 普通弹窗：启动器更新
+发现了启动器更新，是否下载？
+[22:16:08.434] [Control] 按下按钮：确定
+[22:16:08.435] [Control] 普通弹框返回：1
+[22:16:08.435] [System] 更新已开始，静默：False
+[22:16:08.438] [Loader] 加载器 启动器更新 状态改变：Loading
+[22:16:08.439] [Loader] 加载器 下载更新文件 状态改变：Loading
+[22:16:08.459] [Download] Update.zip 371#：开始，起始点 0，http://pcl2-server-1253424809.file.myqcloud.com/update/Publi2.zip?sign=1688566568-092a7e96-0-533e81354b15afab29352229976ae127
+[22:16:08.474] [UI] 弹出提示：PCL2 正在下载更新，更新结束时将自动重启，请稍候！
+[22:16:08.493] [Download] Update.zip：文件大小 2029813 B（1.94 M）
+[22:16:09.008] [Download] 速度下限已提升到 1 M
+[22:16:10.800] [Download] Update.zip：已完成，剩余文件 0
+[22:16:10.800] [Loader] 加载器 下载更新文件 状态改变：Finished
+[22:16:10.800] [Loader] 加载器 安装更新 状态改变：Loading
+[22:16:10.821] [System] 更新文件解压完成
+[22:16:10.822] [System] 更新程序启动，参数：--update 34012 "Plain Craft Launcher 2.exe" "Plain Craft Launcher 2.exe" True
+[22:16:10.888] [System] 收到关闭指令
+[22:16:10.888] [System] 已由于更新强制结束程序
+[22:16:10.888] [Loader] 加载器 安装更新 状态改变：Finished
+[22:16:10.888] [Loader] 加载器 启动器更新 状态改变：Finished
+[22:16:11.192] [System] 程序已退出，返回值：Success

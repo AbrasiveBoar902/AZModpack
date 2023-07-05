@@ -1,0 +1,91 @@
+[22:16:12.099] [Start] 程序版本：Release 2.6.3（296）
+[22:16:12.101] [Start] 识别码：FA87-9E48-2DBB-B57C
+[22:16:12.101] [Start] 程序路径：D:\Documents\GitHub\120\AZModpack_safe\Plain Craft Launcher 2.exe
+[22:16:12.106] [Start] 第一阶段加载用时：171 ms
+[22:16:12.189] [Start] 版本号从 231 升高到 296
+[22:16:12.191] [Start] 最高版本号从 231 升高到 296
+[22:16:12.250] [Loader] 加载器 Minecraft Folder List 状态改变：Loading
+[22:16:12.250] [Start] 第二阶段加载用时：141 ms
+[22:16:12.260] [Loader] 加载器 Minecraft Folder List 状态改变：Finished
+[22:16:12.508] [System] 窗口已置顶，位置：(530, 305), 860 x 470
+[22:16:12.513] [Start] 第三阶段加载用时：63 ms
+[22:16:12.513] [Animation] 动画线程开始
+[22:16:12.515] [Start] 加载 DLL：Json
+[22:16:12.515] [System] 获取资源：Json
+[22:16:12.519] [System] 尝试从本地文件读取主页自定义数据（6105）
+[22:16:12.526] [Launch] Minecraft 文件夹：C:\Users\suyue\AppData\Roaming\.minecraft\
+[22:16:12.526] [Launch] Minecraft 版本无效，没有有效版本
+[22:16:12.533] [Loader] 加载器 Minecraft Version List 状态改变：Loading
+[22:16:12.541] [Setup] 当前选择的 Minecraft 版本：
+[22:16:12.541] [Minecraft] 未找到可用 Minecraft 版本
+[22:16:12.541] [Loader] 加载器 Minecraft Version List 状态改变：Finished
+[22:16:12.555] [Launch] 无可用 Minecraft 版本
+[22:16:12.572] [Loader] 加载器 Loader Skin Ms 状态改变：Loading
+[22:16:12.579] [Loader] 加载器 Loader Skin Ms 状态改变：Finished
+[22:16:12.606] [Java] 缓存中有 4 个可用的 Java：
+[22:16:12.607] [Java]  - JRE 20 (20.0.1)，64 位：C:\Users\suyue\Desktop\垃圾桶[迫真]\minecraft\.minecraft\zulu20.30.11-ca-jre20.0.1-win_x64\bin\
+[22:16:12.607] [Java]  - JRE 17 (17.0.7)，64 位：D:\MCSManager_v9.9.0_CN_Win_x64\java\bin\
+[22:16:12.607] [Java]  - JRE 17 (17.0.7)，64 位：D:\MCSManager_v9.9.0_CN_Win_x64\java-zulu\bin\
+[22:16:12.607] [Java]  - JRE 17 (17.0.7)，64 位，手动导入：C:\Program Files\Zulu\zulu-17-jre\bin\
+[22:16:12.745] [System] 加载主页自定义数据
+[22:16:12.762] [Animation] 两个动画帧间隔 235 ms
+[22:16:12.774] [Minecraft] 启动按钮：无 Minecraft 版本，要求下载
+[22:16:12.779] [Loader] 加载器 登录 状态改变：Loading
+[22:16:12.782] [Launch] 登录加载已开始
+[22:16:12.782] [Loader] 加载器 Loader Login Ms 状态改变：Loading
+[22:16:12.784] [Launch] 登录方式：正版（Safe_Saffawa）
+[22:16:12.785] [Launch] 开始微软登录步骤 2（刷新登录）
+[22:16:12.785] [Skin] 载入头像成功：Loader Skin Ms
+[22:16:12.789] [Net] 发起网络请求（POST，https://login.live.com/oauth20_token.srf），最大超时 30000
+[22:16:12.821] [Control] 普通弹窗：PCL 已更新至 Release 2.6.3
+· 支持搜索、安装 Modrinth 的 Mod 与整合包
+· 暂时关闭了联机功能
+· 新增内存优化功能，可以将所有程序的物理内存占用降低约 1/3
+· 支持在多个正版账号间切换
+· 在缺少 Java 时会自动下载所需的 Java
+· 增加 在游戏启动前执行命令 设置
+· 支持在版本设置页导出启动脚本、打开存档文件夹等
+· 解决了联机人数 ≥3 人时出现的频繁掉线或突发高延迟的问题
+· 支持在安装菜单中直接安装 OptiFabric
+· 支持将 Mod 文件拖入窗口进行安装
+· 其他 228 项小调整与修改，修复了 298 个 Bug，详见完整更新日志
+[22:16:12.825] [Loader] 加载器 DlClientList Mojang 状态改变：Loading
+[22:16:12.826] [Loader] 加载器 PCL 服务 状态改变：Loading
+[22:16:12.827] [Server] 正在连接到 PCL 服务器
+[22:16:12.830] [Net] 获取网络结果：https://launchermeta.mojang.com/mc/game/version_manifest.json，最大超时 10000
+[22:16:12.839] [Net] 获取网络结果：https://pcl2-server-1253424809.file.myqcloud.com/notice.cfg?sign=1688566573-5df64923-0-5762cccabb6a8b9d143006344398cb91，最大超时 10000
+[22:16:12.985] [Server] 服务器公告：111|297|296|5，无需更新
+[22:16:12.996] [Loader] 加载器 PCL 服务 状态改变：Finished
+[22:16:13.239] [System] DPI：96，系统版本：10.0.19042.0，PCL 位置：D:\Documents\GitHub\120\AZModpack_safe\Plain Craft Launcher 2.exe
+[22:16:13.307] [Loader] 加载器 DlClientList Mojang 状态改变：Finished
+[22:16:13.474] [Launch] 开始微软登录步骤 3
+[22:16:13.474] [Net] 发起网络请求（POST，https://user.auth.xboxlive.com/user/authenticate），最大超时 30000
+[22:16:13.729] [Net] 发起网络请求（POST，https://user.auth.xboxlive.com/user/authenticate），最大超时 30000
+[22:16:14.243] [Launch] 开始微软登录步骤 4
+[22:16:14.243] [Net] 发起网络请求（POST，https://xsts.auth.xboxlive.com/xsts/authorize），最大超时 30000
+[22:16:14.509] [Net] 发起网络请求（POST，https://xsts.auth.xboxlive.com/xsts/authorize），最大超时 30000
+[22:16:15.020] [Net] 发起网络请求（POST，https://xsts.auth.xboxlive.com/xsts/authorize），最大超时 30000
+[22:16:15.777] [Launch] 开始微软登录步骤 5
+[22:16:15.777] [Net] 发起网络请求（POST，https://api.minecraftservices.com/authentication/login_with_xbox），最大超时 30000
+[22:16:16.039] [Net] 发起网络请求（POST，https://api.minecraftservices.com/authentication/login_with_xbox），最大超时 30000
+[22:16:16.554] [Launch] 开始微软登录步骤 6
+[22:16:16.555] [Net] 发起网络请求（GET，https://api.minecraftservices.com/minecraft/profile），最大超时 30000
+[22:16:16.816] [Net] 发起网络请求（GET，https://api.minecraftservices.com/minecraft/profile），最大超时 30000
+[22:16:17.338] [Launch] 微软登录完成
+[22:16:17.338] [Loader] 加载器 Loader Login Ms 状态改变：Finished
+[22:16:17.344] [Launch] 登录加载已结束
+[22:16:17.344] [Loader] 加载器 登录 状态改变：Finished
+[22:16:31.131] [Control] 按下按钮：确定
+[22:16:31.132] [Control] 普通弹框返回：1
+[22:16:32.306] [Control] 按下单选按钮：设置
+[22:16:32.553] [Control] 切换主要页面：Setup, -1
+[22:16:32.632] [Loader] 加载器 Loader Skin Legacy 状态改变：Loading
+[22:16:32.636] [Loader] 加载器 Loader Skin Legacy 状态改变：Finished
+[22:16:33.419] [Control] 按下单选列表项：启动器
+[22:16:34.627] [Control] 按下按钮：检查更新
+[22:16:34.637] [UI] 弹出提示：当前启动器已为最新正式版 2.6.3，无需更新啦！
+[22:16:35.978] [Control] 按下单选按钮：启动
+[22:16:35.979] [Control] 切换主要页面：Launch, -1
+[22:16:37.915] [Control] 按下图标按钮：BtnTitleClose
+[22:16:37.918] [System] 收到关闭指令
+[22:16:38.161] [System] 程序已退出，返回值：Success
