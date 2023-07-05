@@ -1,0 +1,111 @@
+[22:15:08.889] [Start] 程序版本：Release 2.1.3（224）
+[22:15:08.891] [Start] 识别码：FA87-9E48-2DBB-B57C
+[22:15:08.891] [Start] 程序路径：D:\Documents\GitHub\120\AZModpack_safe\
+[22:15:08.896] [Start] 第一阶段加载用时：125 ms
+[22:15:08.973] [Start] 版本号从 297 降低到 224
+[22:15:08.983] [UI] 刷新主题：0
+[22:15:09.030] [Loader] 加载器 Minecraft Folder List 状态改变：Loading
+[22:15:09.030] [Start] 第二阶段加载用时：125 ms
+[22:15:09.252] [Start] 加载 DLL：Json
+[22:15:09.252] [System] 获取资源：Json
+[22:15:09.308] [Java] 缓存中有 4 个可用的 Java
+[22:15:09.358] [System] 窗口已置顶，位置：(530, 107), 860 x 866
+[22:15:09.360] [Start] 第三阶段加载用时：125 ms
+[22:15:09.364] [System] 尝试从本地文件读取主页自定义数据（6105）
+[22:15:09.367] [Launch] Minecraft 文件夹无效：D:\Documents\GitHub\120\AZModpack_safe\.minecraft\
+[22:15:09.396] [Loader] 加载器 Loader Skin Ms 状态改变：Loading
+[22:15:09.401] [Loader] 加载器 Loader Skin Ms 状态改变：Finished
+[22:15:09.413] [Loader] 加载器 Minecraft Folder List 状态改变：Finished
+[22:15:09.417] [Setup] 当前选择的 Minecraft 文件夹：C:\Users\suyue\AppData\Roaming\.minecraft\
+[22:15:09.417] [Launch] Minecraft 文件夹：C:\Users\suyue\AppData\Roaming\.minecraft\
+[22:15:09.417] [Launch] Minecraft 版本无效：C:\Users\suyue\AppData\Roaming\.minecraft\versions\1.17.1-Fabric 0.11.6\
+[22:15:09.422] [Loader] 加载器 Minecraft Version List 状态改变：Loading
+[22:15:09.424] [System] 加载主页自定义数据
+[22:15:09.456] [Skin] 载入头像成功：Loader Skin Ms
+[22:15:09.495] [Setup] 当前选择的 Minecraft 版本：
+[22:15:09.495] [Minecraft] 未找到可用 Minecraft 版本
+[22:15:09.495] [Loader] 加载器 Minecraft Version List 状态改变：Finished
+[22:15:09.509] [Launch] 无可用 Minecraft 版本
+[22:15:09.510] [Minecraft] 启动按钮：无 Minecraft 版本，要求下载
+[22:15:09.513] [Loader] 加载器 登录 状态改变：Loading
+[22:15:09.514] [Launch] 登录线程已启动
+[22:15:09.515] [Loader] 加载器 Loader Login Ms 状态改变：Loading
+[22:15:09.516] [Launch] 登录方式：微软正版（Safe_Saffawa）
+[22:15:09.516] [Launch] 开始微软登录步骤 2（刷新登录）
+[22:15:09.519] [Net] 发起网络请求（POST，https://login.live.com/oauth20_token.srf），最大超时 30000
+[22:15:09.742] [System] DPI：96，工作区尺寸：1920 x 1080，系统版本：10.0.19042.0
+[22:15:09.868] [Loader] 加载器 DlClientList Mojang 状态改变：Loading
+[22:15:09.869] [Loader] 加载器 PCL2 服务 状态改变：Loading
+[22:15:09.870] [Server] 正在连接到 PCL2 服务器
+[22:15:09.871] [Net] 获取网络结果：https://launchermeta.mojang.com/mc/game/version_manifest.json，最大超时 10000
+[22:15:09.873] [Net] 获取网络结果：http://pcl2-server-1253424809.file.myqcloud.com/notice.cfg?sign=1688566510-06ca03d8-0-d3a412d760e92407c9fb2ca42787b17f，最大超时 10000
+[22:15:09.978] [Server] 服务器公告：111|297|296|5，无需更新
+[22:15:09.984] [Loader] 加载器 PCL2 服务 状态改变：Finished
+[22:15:10.194] [Launch] 开始微软登录步骤 3
+[22:15:10.195] [Net] 发起网络请求（POST，https://user.auth.xboxlive.com/user/authenticate），最大超时 30000
+[22:15:10.223] [Net] 发起网络请求（POST，https://user.auth.xboxlive.com/user/authenticate），最大超时 30000
+[22:15:10.253] [Net] 发起网络请求（POST，https://user.auth.xboxlive.com/user/authenticate），最大超时 30000
+[22:15:10.429] [Loader] 加载器 DlClientList Mojang 状态改变：Finished
+[22:15:10.904] [Launch] 开始微软登录步骤 4
+[22:15:10.913] [Net] 发起网络请求（POST，https://xsts.auth.xboxlive.com/xsts/authorize），最大超时 30000
+[22:15:10.933] [Net] 发起网络请求（POST，https://xsts.auth.xboxlive.com/xsts/authorize），最大超时 30000
+[22:15:10.963] [Net] 发起网络请求（POST，https://xsts.auth.xboxlive.com/xsts/authorize），最大超时 30000
+[22:15:11.699] [Control] 按下单选按钮：设置
+[22:15:11.792] [Control] 切换主要页面：Setup, -1
+[22:15:11.912] [Loader] 加载器 Loader Skin Legacy 状态改变：Loading
+[22:15:11.914] [Loader] 加载器 Loader Skin Legacy 状态改变：Finished
+[22:15:11.944] [Launch] 开始微软登录步骤 5
+[22:15:11.945] [Net] 发起网络请求（POST，https://api.minecraftservices.com/authentication/login_with_xbox），最大超时 30000
+[22:15:11.974] [Net] 发起网络请求（POST，https://api.minecraftservices.com/authentication/login_with_xbox），最大超时 30000
+[22:15:12.614] [Launch] 开始微软登录步骤 6
+[22:15:12.615] [Net] 发起网络请求（GET，https://api.minecraftservices.com/minecraft/profile），最大超时 30000
+[22:15:12.646] [Net] 发起网络请求（GET，https://api.minecraftservices.com/minecraft/profile），最大超时 30000
+[22:15:12.954] [Control] 按下单选按钮：更多
+[22:15:12.975] [Control] 切换主要页面：Other, -1
+[22:15:13.138] [Launch] 微软登录完成
+[22:15:13.138] [Loader] 加载器 Loader Login Ms 状态改变：Finished
+[22:15:13.152] [Loader] 加载器 登录 状态改变：Finished
+[22:15:14.490] [Control] 按下单选列表项：帮助
+[22:15:14.615] [Loader] 加载器 Help List UI Loader 状态改变：Loading
+[22:15:14.616] [Loader] 加载器 Help Page 状态改变：Loading
+[22:15:14.619] [Help] 正在检查内置帮助文件
+[22:15:14.620] [Help] 已扫描 PCL 文件夹下的帮助文件，目前总计 0 条
+[22:15:14.625] [Help] 已扫描缓存文件夹下的帮助文件，目前总计 32 条
+[22:15:14.647] [Loader] 加载器 Help Page 状态改变：Finished
+[22:15:14.662] [Loader] 加载器 Help List UI Loader 状态改变：Finished
+[22:15:15.358] [Control] 按下单选列表项：联机
+[22:15:16.283] [Control] 按下单选列表项：帮助
+[22:15:16.818] [Control] 按下单选列表项：联机
+[22:15:21.515] [Control] 按下单选列表项：百宝箱
+[22:15:22.562] [Control] 按下单选列表项：关于与鸣谢
+[22:15:24.675] [Control] 展开卡片：法律声明
+[22:15:25.627] [Control] 展开卡片：许可与版权声明
+[22:15:30.163] [Control] 按下单选列表项：帮助
+[22:15:30.818] [Control] 按下单选按钮：设置
+[22:15:30.826] [Control] 切换主要页面：Setup, -1
+[22:15:31.474] [Control] 按下单选列表项：启动器
+[22:15:31.847] [Report] FPS 0, 动画 13, 下载中 0
+[22:15:32.627] [Control] 按下按钮：检查更新
+[22:15:32.655] [UI] 弹出提示：正在检查更新，请稍候！
+[22:15:32.664] [Control] 普通弹窗：启动器更新
+发现了启动器更新，是否下载？
+[22:15:33.555] [Control] 按下按钮：确定
+[22:15:33.556] [Control] 普通弹框返回：1
+[22:15:33.556] [System] 更新已开始，静默：False
+[22:15:33.560] [Loader] 加载器 启动器更新 状态改变：Loading
+[22:15:33.562] [Loader] 加载器 下载更新文件 状态改变：Loading
+[22:15:33.578] [UI] 弹出提示：PCL2 正在下载更新，更新结束时将自动重启，请稍候！
+[22:15:33.691] [Download] Update.zip 327#：开始，起始点 0，http://pcl2-server-1253424809.file.myqcloud.com/update/Public.zip?sign=1688566534-393aaad0-0-86456f63085f01dd6a7c8366a438d976
+[22:15:33.779] [Download] Update.zip：文件大小 2654394 B（2.53 M）
+[22:15:34.859] [Control] 按下附加按钮：下载管理
+[22:15:34.875] [Control] 切换主要页面：DownloadManager, 0
+[22:15:38.134] [Download] Update.zip：已完成，剩余文件 0
+[22:15:38.134] [Loader] 加载器 下载更新文件 状态改变：Finished
+[22:15:38.134] [Loader] 加载器 安装更新 状态改变：Loading
+[22:15:38.154] [System] 更新文件解压完成
+[22:15:38.155] [System] 更新程序启动，参数：--update 14164 "Plain Craft Launcher 2.exe" "Plain Craft Launcher 2.exe" True
+[22:15:38.214] [System] 收到关闭指令
+[22:15:38.214] [System] 已由于更新强制结束程序
+[22:15:38.214] [Loader] 加载器 安装更新 状态改变：Finished
+[22:15:38.214] [Loader] 加载器 启动器更新 状态改变：Finished
+[22:15:38.518] [System] 程序已退出，返回值：Success
