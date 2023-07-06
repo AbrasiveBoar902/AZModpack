@@ -1,0 +1,4 @@
+reduceFPSWhenUnfocused = true
+unfocusedFPS = 0
+restoreFPSWhenHovered = true
+runGCOnUnfocus = true
