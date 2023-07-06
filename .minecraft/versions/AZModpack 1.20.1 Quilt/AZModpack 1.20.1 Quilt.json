@@ -193,7 +193,7 @@
       "url": "https://maven.fabricmc.net/"
     },
     {
-      "name": "org.quiltmc:quilt-json5:1.0.2",
+      "name": "org.quiltmc:quilt-json5:1.0.4+final",
       "url": "https://maven.quiltmc.org/repository/release/"
     },
     {
@@ -217,7 +217,7 @@
       "url": "https://maven.fabricmc.net/"
     },
     {
-      "name": "org.quiltmc:quilt-config:1.0.0-beta.6",
+      "name": "org.quiltmc:quilt-config:1.1.0-beta.2",
       "url": "https://maven.quiltmc.org/repository/release/"
     },
     {
@@ -225,7 +225,7 @@
       "url": "https://maven.fabricmc.net/"
     },
     {
-      "name": "org.quiltmc:quilt-loader:0.19.2-beta.2",
+      "name": "org.quiltmc:quilt-loader:0.20.0-beta.2",
       "url": "https://maven.quiltmc.org/repository/release/"
     },
     {
@@ -1568,15 +1568,15 @@
       "sha1": "0c3ec587af28e5a785c0b4a7b8a30f9a8f78f838",
       "size": 23028853
     },
-    "client_mappings": {
-      "url": "https://piston-data.mojang.com/v1/objects/6c48521eed01fe2e8ecdadbd5ae348415f3c47da/client.txt",
-      "sha1": "6c48521eed01fe2e8ecdadbd5ae348415f3c47da",
-      "size": 8001795
-    },
     "server": {
       "url": "https://piston-data.mojang.com/v1/objects/84194a2f286ef7c14ed7ce0090dba59902951553/server.jar",
       "sha1": "84194a2f286ef7c14ed7ce0090dba59902951553",
       "size": 47791053
+    },
+    "client_mappings": {
+      "url": "https://piston-data.mojang.com/v1/objects/6c48521eed01fe2e8ecdadbd5ae348415f3c47da/client.txt",
+      "sha1": "6c48521eed01fe2e8ecdadbd5ae348415f3c47da",
+      "size": 8001795
     }
   },
   "logging": {
@@ -3117,15 +3117,15 @@
           "sha1": "0c3ec587af28e5a785c0b4a7b8a30f9a8f78f838",
           "size": 23028853
         },
-        "client_mappings": {
-          "url": "https://piston-data.mojang.com/v1/objects/6c48521eed01fe2e8ecdadbd5ae348415f3c47da/client.txt",
-          "sha1": "6c48521eed01fe2e8ecdadbd5ae348415f3c47da",
-          "size": 8001795
-        },
         "server": {
           "url": "https://piston-data.mojang.com/v1/objects/84194a2f286ef7c14ed7ce0090dba59902951553/server.jar",
           "sha1": "84194a2f286ef7c14ed7ce0090dba59902951553",
           "size": 47791053
+        },
+        "client_mappings": {
+          "url": "https://piston-data.mojang.com/v1/objects/6c48521eed01fe2e8ecdadbd5ae348415f3c47da/client.txt",
+          "sha1": "6c48521eed01fe2e8ecdadbd5ae348415f3c47da",
+          "size": 8001795
         }
       },
       "logging": {
@@ -3147,7 +3147,7 @@
     },
     {
       "id": "quilt",
-      "version": "0.19.2-beta.2",
+      "version": "0.20.0-beta.2",
       "priority": 30000,
       "arguments": {},
       "mainClass": "org.quiltmc.loader.impl.launch.knot.KnotClient",
@@ -3169,7 +3169,7 @@
           "url": "https://maven.fabricmc.net/"
         },
         {
-          "name": "org.quiltmc:quilt-json5:1.0.2",
+          "name": "org.quiltmc:quilt-json5:1.0.4+final",
           "url": "https://maven.quiltmc.org/repository/release/"
         },
         {
@@ -3193,7 +3193,7 @@
           "url": "https://maven.fabricmc.net/"
         },
         {
-          "name": "org.quiltmc:quilt-config:1.0.0-beta.6",
+          "name": "org.quiltmc:quilt-config:1.1.0-beta.2",
           "url": "https://maven.quiltmc.org/repository/release/"
         },
         {
@@ -3201,7 +3201,7 @@
           "url": "https://maven.fabricmc.net/"
         },
         {
-          "name": "org.quiltmc:quilt-loader:0.19.2-beta.2",
+          "name": "org.quiltmc:quilt-loader:0.20.0-beta.2",
           "url": "https://maven.quiltmc.org/repository/release/"
         }
       ]
